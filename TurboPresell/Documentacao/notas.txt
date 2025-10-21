@@ -1,0 +1,29 @@
+# Configuração do PostgreSQL
+
+## Instalação de dependências
+- npm install drizzle-kit --save-dev
+- npm install @types/ws @vitejs/plugin-react autoprefixer cross-env esbuild postcss tailwindcss tsx typescript vite bufferutil --save-dev
+- npm install pg postgres drizzle-orm connect-pg-simple --save
+
+## Inicialização do banco de dados
+
+### Iniciar o PostgreSQL
+```bash
+npm run postgres:start
+```
+
+### Criar tabelas
+```bash
+npm run db:init
+```
+
+### Migrar dados
+```bash
+npm run db:migrate-data
+```
+
+### Visualizar banco de dados
+```bash
+npm run db:studio
+```
+etc.
